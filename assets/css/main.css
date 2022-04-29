@@ -14,12 +14,38 @@ img {
 }
 
 #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 	background-color: #fff;
-	height: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 2px #999;
+	top: 0;
+
 }
+
+.header-left img{
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 2px;
+}
+
+.header-left{
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+}
+
+.header-left span a{
+	text-decoration: none;
+	padding: 20px 15px;
+	color: #555;
+}
+
+
 
 .header-right__search{
 	overflow: hidden;
@@ -67,7 +93,7 @@ img {
 
 
 #main {
-	background-color: red;
+	background-color: #fff;
 	height: 2000px;
 }
 
