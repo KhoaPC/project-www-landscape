@@ -2,6 +2,10 @@
 	toc = table of content
 */
 
+html{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Reset CSS */
 * {
 	margin: 0;
@@ -41,8 +45,15 @@ img {
 
 .header-left span a{
 	text-decoration: none;
+	font-weight: 600;
 	padding: 20px 15px;
-	color: #555;
+	margin: 5px;
+	color: #666;
+}
+
+.header-left span:hover a{
+	background-color:#c8f5f8 ;
+	border-radius: 5px;
 }
 
 
