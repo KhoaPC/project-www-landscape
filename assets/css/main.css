@@ -32,25 +32,3 @@ img {
 	height: 50px;
 }
 
-#toc {
-	z-index: 2; /* Stay above */
-	position: fixed;
-	top: 50px;
-	left: 10px;
-	background-color: blue;
-	
-	min-width: 50px;
-	min-height: 50px;
-
-	display: flex;
-	flex-direction: column;
-}
-
-.toc__sub{
-	display: none;
-}
-
-#toc:hover .toc__sub {
-	display: block;
-}
-
