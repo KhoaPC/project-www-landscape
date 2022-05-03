@@ -19,7 +19,13 @@ img {
 /* ------------------- */
 
 :root{
-	--blue: #c8f5f8;
+	--color-app-1st:#c8f5f8;
+	--color-app-2nd:#db2017;
+	--color-app-3rd:#ffff00;
+	--color-black-level0:#000;
+	--color-black-level1:#666;
+	--color-black-level2:#888;
+	--color-white-level0:#fff;
 }
 
 /* ------------------ */
@@ -27,11 +33,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-	background-color: #fff;
+	background-color: var(--color-white-level0);
 	height: 60px;
 	position: fixed;
 	width: 100%;
-	box-shadow: 0 0 2px #999;
+	box-shadow: 0 0 2px var(--color-black-level2);
 	top: 0;
 
 }
@@ -54,13 +60,13 @@ img {
 	font-weight: 600;
 	padding: 20px 15px;
 	margin: 5px;
-	color: #666;
+	color: var(--color-black-level1);
 }
 
 .header-left span:hover a{
-	background-color:var(--blue) ;
+	background-color:var(--color-app-1st) ;
 	border-radius: 5px;
-	color: #999;
+	color: var(--color-black-level2);
 }
 
 
@@ -70,9 +76,9 @@ img {
   
   .sub-nav-place{
 	position: absolute;
-	background-color: #fff;
+	background-color: var(--color-white-level0);
 	top:103% ;
-	box-shadow: 0 0 2px #888;
+	box-shadow: 0 0 2px var(--color-black-level2);
 	margin-left: 5px;
 	display: none;
   }
@@ -86,11 +92,11 @@ img {
   
   .sub-nav-place a{
 	text-decoration: none;
-	color: #555;
+	color: var(--color-black-level1);
   }
   
   .sub-nav-place span:hover{
-	background-color: #999;
+	background-color: var(--color-black-level2);
   }
 
 
@@ -106,15 +112,15 @@ img {
   .header-right__search input#search{
 	width: 300px;
 	height: 42px;
-	background: #fdfefe;
+	background: var(--color-white-level0);
 	border: none;
 	font-size: 13px;
 	float: left;
-	color: #555;
+	color: var(--color-black-level1);
 	padding-left: 15px;
 	border-radius: 8px;
 	transition: all .55s ease;
-	border: 1px solid #999;
+	border: 1px solid var(--color-black-level2);
 	appearance: none;
 
   }
@@ -122,10 +128,10 @@ img {
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 	border: none;
-	background: #3a3a3a;
+	background: var(--color-black-level1);
 	height: 42px;
 	width: 46px;
-	color: #999;
+	color: var(--color-black-level2);
 	opacity: 0;
 	font-size: 15px;
 	transition: all .55s ease;
@@ -140,14 +146,14 @@ img {
 
 
 #main {
-	background-color: #fff;
+	background-color: var(--color-white-level0);
 
 
 	height: 2000px;
 }
 /* ------------ Footer--------------- */
 .footer{
-	background: var(--blue);
+	background: var(--color-app-1st);
 	width: 100%;
 	padding: 55px 45px;
   }
@@ -166,7 +172,7 @@ img {
   }
   
   .footer h3{
-	color:  #777;
+	color:  var(--color-black-level1);
 	font: normal 36px 'Open Sans';
   }
   
@@ -180,17 +186,17 @@ img {
   /* Footer links */
   
   .footer .ft-links{
-	color:  #777;
+	color:  var(--color-black-level1);
 	margin: 20px 0 12px;
   }
   
   .footer .ft-links a{
 	text-decoration: none;
-	color:  #777;
+	color:  var(--color-black-level1);
   }
   
   .footer .ft-company-name{
-	color:  #555;
+	color:  var(--color-black-level1);
 	font-size: 14px;
 	font-weight: normal;
   }
@@ -202,8 +208,8 @@ img {
   }
   
   .footer .ft-center i{
-	background-color:  #555;
-	color: #ffffff;
+	background-color:  var(--color-black-level1);
+	color: var(--color-white-level0);
 	font-size: 25px;
 	width: 38px;
 	height: 38px;
@@ -220,7 +226,7 @@ img {
   
   .footer .ft-center p{
 	display: inline-block;
-	color: #777;
+	color: var(--color-black-level1);
 	/* vertical-align: middle; */
   }
   
@@ -243,13 +249,13 @@ img {
   
   .footer .ft-company-about{
 	line-height: 20px;
-	color:  #999;
+	color:  var(--color-black-level2);
 	font-size: 13px;
   }
   
   .footer .ft-company-about span{
 	display: block;
-	color:  #777;
+	color:  var(--color-black-level1);
 	font-size: 14px;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -264,10 +270,10 @@ img {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #555;
+	background-color:  var(--color-black-level1);
 	border-radius: 5px;
 	font-size: 20px;
-	color: #ffffff;
+	color: var(--color-white-level0);
 	text-align: center;
   }
 
