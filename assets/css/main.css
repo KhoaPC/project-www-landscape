@@ -64,6 +64,36 @@ img {
 }
 
 
+.header-left span:hover .sub-nav-place{
+	display: block;
+  }
+  
+  .sub-nav-place{
+	position: absolute;
+	background-color: #fff;
+	top:103% ;
+	box-shadow: 0 0 2px #888;
+	margin-left: 5px;
+	display: none;
+  }
+  
+  .sub-nav-place span{
+	display: block;
+	padding: 10px 10px;
+	height: 100%;
+	padding: 15px;
+  }
+  
+  .sub-nav-place a{
+	text-decoration: none;
+	color: #555;
+  }
+  
+  .sub-nav-place span:hover{
+	background-color: #999;
+  }
+
+
 
 .header-right__search{
 	overflow: hidden;
