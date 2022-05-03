@@ -1,10 +1,8 @@
 /* Abbreviations
 	toc = table of content
 */
-
-html{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 /* Reset CSS */
 * {
@@ -26,9 +24,16 @@ img {
 	--color-black-level1:#666;
 	--color-black-level2:#888;
 	--color-white-level0:#fff;
+
+	--font-title: Goldman;
+	--font-main: 'Nunito Sans';
 }
 
 /* ------------------ */
+html{
+	font-family: var(--font-main);
+}
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,7 @@ img {
 	width: 100%;
 	box-shadow: 0 0 2px var(--color-black-level2);
 	top: 0;
-
+	font-family: var(--font-title);
 }
 
 .header-left img{
@@ -173,7 +178,7 @@ img {
   
   .footer h3{
 	color:  var(--color-black-level1);
-	font: normal 36px 'Open Sans';
+	font: normal 36px var(--font-title);
   }
   
   .footer h3 img{
@@ -259,6 +264,7 @@ img {
 	font-size: 14px;
 	font-weight: 700;
 	margin-bottom: 15px;
+	font-family: var(--font-title);
   }
   
   .footer .ft-icons{
