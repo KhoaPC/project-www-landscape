@@ -1,5 +1,5 @@
 /* Abbreviations
-	toc = table of content
+
 */
  
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
@@ -24,7 +24,7 @@ img {
 	--color-black-level1:#666;
 	--color-black-level2:#888;
 	--color-white-level0:#fff;
-
+	--color-white-lever1:#f3f9f9;
 	--font-title: Goldman;
 	--font-main: 'Nunito Sans';
 }
@@ -32,6 +32,10 @@ img {
 /* ------------------ */
 html{
 	font-family: var(--font-main);
+}
+
+body{
+	background: var(--color-white-lever1);
 }
 
 #header{
@@ -45,30 +49,30 @@ html{
 	box-shadow: 0 0 2px var(--color-black-level2);
 	top: 0;
 	font-family: var(--font-title);
-}
-
-.header-left img{
-	height: 30px;
-	margin-left: 20px;
-	border-radius: 2px;
+	z-index: 10;
 }
 
 .header-left{
 	display: flex;
 	align-items: center;
-	height: 100%;
-
+	height: 100%;	
 }
 
-.header-left span a{
+.header-left img{
+	height: 30px;
+	margin: 0 5px 0 20px;
+	border-radius: 2px;
+}
+.header-left>span>a{
+	display: block;
 	text-decoration: none;
-	font-weight: 600;
 	padding: 20px 15px;
 	margin: 5px;
 	color: var(--color-black-level1);
+	height: 100%;
 }
 
-.header-left span:hover a{
+.header-left>span:hover a{
 	background-color:var(--color-app-1st) ;
 	border-radius: 5px;
 	color: var(--color-black-level2);
@@ -77,32 +81,31 @@ html{
 
 .header-left span:hover .sub-nav-place{
 	display: block;
-  }
-  
-  .sub-nav-place{
+}
+
+.sub-nav-place span:hover{
+  background-color: var(--color-app-1st);
+}
+.sub-nav-place{
 	position: absolute;
 	background-color: var(--color-white-level0);
-	top:103% ;
+	top:102% ;
 	box-shadow: 0 0 2px var(--color-black-level2);
 	margin-left: 5px;
 	display: none;
-  }
+}
   
-  .sub-nav-place span{
+.sub-nav-place span{
 	display: block;
-	padding: 10px 10px;
 	height: 100%;
 	padding: 15px;
-  }
+}
   
-  .sub-nav-place a{
+.sub-nav-place a{
 	text-decoration: none;
 	color: var(--color-black-level1);
-  }
+}
   
-  .sub-nav-place span:hover{
-	background-color: var(--color-black-level2);
-  }
 
 
 
@@ -114,7 +117,7 @@ html{
 	width: 305px;
 	height: 42px;
   }
-  .header-right__search input#search{
+.header-right__search input#search{
 	width: 300px;
 	height: 42px;
 	background: var(--color-white-level0);
@@ -128,8 +131,8 @@ html{
 	border: 1px solid var(--color-black-level2);
 	appearance: none;
 
-  }
-  .header-right__search button.icon{
+}
+.header-right__search button.icon{
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 	border: none;
@@ -140,22 +143,98 @@ html{
 	opacity: 0;
 	font-size: 15px;
 	transition: all .55s ease;
-  }
-	/* ANIMATION EFFECT */
-	.header-right__search:hover button.icon, .header-right__search:active button.icon, .header-right__search:focus button.icon{
-	  outline:none;
-	  opacity: 1;
-	  margin-left: -46px;
-	  cursor: pointer;
-	}
-
-
-#main {
-	background-color: var(--color-white-level0);
-
-
-	height: 2000px;
 }
+	/* ANIMATION EFFECT */
+.header-right__search:hover button.icon, .header-right__search:active button.icon, .header-right__search:focus button.icon{
+	outline:none;
+	opacity: 1;
+	margin-left: -46px;
+	cursor: pointer;
+}
+
+
+#main-pages {
+	background-color: var(--color-white-level0);
+	height: auto;
+}
+
+#main-home{
+	height: auto;
+	margin: 10% 0 0 0;
+	margin-bottom: 100px;
+	display: block;
+}
+
+#hot{
+	display: flex;
+	justify-content: space-evenly;
+}
+  
+  
+
+#hot a{
+	position: relative;
+	margin: 2px;
+}
+  
+#hot a img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	transition: all 1s;
+	
+}
+  
+#hot a img:hover{
+	opacity: 1;
+}
+
+
+  
+#main-home h1{
+	color: var(--color-black-level0);
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	margin-bottom: 50px;
+	font-family: var(--font-title);
+}
+  
+  
+  
+.box-place{
+	display:flex;
+	justify-content:space-evenly;
+	height: 300px;
+	width: 480px;
+	background-color: var(--color-black-level2);
+}
+	
+.box-place h3{
+	position:absolute;
+	z-index: 1;
+	overflow: hidden;
+	font-family: var(--font-title);
+	color: var(--color-white-level0);
+	font-size: 35px;
+	pointer-events: none;
+}
+ 
+
+#ganh-da-dia .box-place h3{
+	left: 27%;
+	top: 44%;
+}
+
+#bai-xep .box-place h3{
+	left: 36%;
+	top: 44%;
+}
+
+
+
+
 /* ------------ Footer--------------- */
 .footer{
 	background: var(--color-app-1st);
