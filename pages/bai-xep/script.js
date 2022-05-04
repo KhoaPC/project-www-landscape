@@ -1,0 +1,1 @@
+console.log('Hello from /pages/bai-xep/script.js');
