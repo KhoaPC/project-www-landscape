@@ -1,0 +1,1 @@
+console.log('Hello from /pages/ganh-da-dia/script.js');
