@@ -1,0 +1,74 @@
+#hot {
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+#hot a {}
+
+.box-place {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#hot a img {
+    width: 100%;
+    height: 88%;
+}
+
+#main-home h1 {
+    margin: 100px 0px 20px 0px;
+    text-align: center;
+}
+
+.box-place h3 {
+    text-align: center;
+    top: 44%;
+    left: 26%;
+    right: 26%;
+}
+
+
+.footer{
+    padding: 50px 18px;
+}
+
+.footer .ft-right{
+    padding-top: 30px;
+    display: block;
+    width: 100%;
+
+}
+
+.footer .ft-links a {
+}
+
+
+.footer .ft-left{
+    width: 100%;
+    display: inline;
+}
+
+.footer .ft-center{
+    width: 80%;
+    margin: 20px 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .ft-center p{
+}
+
+.footer .ft-center i{
+    display: inline-block;
+}
+.footer h3,
+.footer .ft-links,
+.footer .ft-company-name,
+.footer .ft-company-about span,
+.footer .ft-company-about,
+.footer .ft-icons{
+    text-align: center;
+}
+
+

@@ -225,16 +225,12 @@ body{
 }
  
 
-#ganh-da-dia .box-place h3{
-	left: 27%;
-	top: 44%;
+.box-place h3 {
+    text-align: center;
+    top: 44%;
+    left: 26%;
+    right: 26%;
 }
-
-#bai-xep .box-place h3{
-	left: 36%;
-	top: 44%;
-}
-
 
 /* ----------------------------- */
 .content-section h1{
@@ -423,4 +419,6 @@ body{
   .ft-icons a i{
 	line-height: 1.8;
   }
+
+
 
