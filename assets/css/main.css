@@ -21,8 +21,9 @@ img {
 	--color-app-2nd:#db2017;
 	--color-app-3rd:#ffff00;
 	--color-black-level0:#000;
-	--color-black-level1:#666;
-	--color-black-level2:#888;
+	--color-black-level1:#444;
+	--color-black-level2:#666;
+	--color-black-level3:#888;
 	--color-white-level0:#fff;
 	--color-white-lever1:#f3f9f9;
 	--font-title: Goldman;
@@ -46,40 +47,67 @@ body{
 	height: 60px;
 	position: fixed;
 	width: 100%;
-	box-shadow: 0 0 2px var(--color-black-level2);
+	box-shadow: 0 0 2px var(--color-black-level3);
 	top: 0;
 	font-family: var(--font-title);
 	z-index: 10;
 }
 
 .header-left{
-	display: flex;
-	align-items: center;
-	height: 100%;	
+	margin-right: 10px0;
 }
 
 .header-left img{
 	height: 30px;
 	margin: 0 5px 0 20px;
 	border-radius: 2px;
+	max-width: none;
 }
-.header-left>span>a{
+
+
+.header-center{
+	display: flex;
+	align-items: center;
+	width: 90%;
+	height: 100%;
+}
+
+.header-center .menu-icon{
+	display: none;
+}
+
+.header-centerresponsive .menu-icon,
+.header-center .menu-icon{
+	text-decoration: none;
+    font-size: 30px;
+	color: var(--color-black-level1);
+	padding: 8 15px;
+}
+
+#menu-nav .header-centerresponsive{
+
+}
+
+
+.header-center>span>a{
 	display: block;
 	text-decoration: none;
 	padding: 20px 15px;
 	margin: 5px;
-	color: var(--color-black-level1);
+	color: var(--color-black-level2);
 	height: 100%;
 }
 
-.header-left>span:hover a{
+
+.header-center>span:hover a{
 	background-color:var(--color-app-1st) ;
 	border-radius: 5px;
-	color: var(--color-black-level2);
+	color: var(--color-black-level3);
 }
 
 
-.header-left span:hover .sub-nav-place{
+
+.header-center span:hover .sub-nav-place{
 	display: block;
 }
 
@@ -90,7 +118,7 @@ body{
 	position: absolute;
 	background-color: var(--color-white-level0);
 	top:102% ;
-	box-shadow: 0 0 2px var(--color-black-level2);
+	box-shadow: 0 0 2px var(--color-black-level3);
 	margin-left: 5px;
 	display: none;
 }
@@ -103,7 +131,7 @@ body{
   
 .sub-nav-place a{
 	text-decoration: none;
-	color: var(--color-black-level1);
+	color: var(--color-black-level2);
 }
   
 
@@ -119,27 +147,25 @@ body{
   }
 .header-right__search input#search{
 	width: 300px;
-	height: 42px;
+	height: 41px;
 	background: var(--color-white-level0);
-	border: none;
 	font-size: 13px;
-	float: left;
-	color: var(--color-black-level1);
+	color: var(--color-black-level2);
 	padding-left: 15px;
 	border-radius: 8px;
 	transition: all .55s ease;
-	border: 1px solid var(--color-black-level2);
+	border: 1px solid var(--color-black-level3);
 	appearance: none;
-
+	outline: none;
 }
 .header-right__search button.icon{
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 	border: none;
-	background: var(--color-black-level1);
-	height: 42px;
+	background: var(--color-black-level2);
+	height: 40px;
 	width: 46px;
-	color: var(--color-black-level2);
+	color: var(--color-black-level3);
 	opacity: 0;
 	font-size: 15px;
 	transition: all .55s ease;
@@ -180,15 +206,13 @@ body{
 	margin: 2px;
 }
   
-#hot a img{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	opacity: 0.3;
-	transition: all 1s;
-	
+#hot a img {
+    position: absolute;
+    height: 100%;
+    width: 96%;
+    opacity: 0.3;
+    transition: all 1s;
 }
-  
 #hot a img:hover{
 	opacity: 1;
 }
@@ -206,12 +230,15 @@ body{
   
   
   
-.box-place{
-	display:flex;
-	justify-content:space-evenly;
-	height: 300px;
-	width: 480px;
-	background-color: var(--color-black-level2);
+.box-place {
+    max-width: 100%;
+    display: flex;
+    height: 300px;
+    width: 460px;
+    padding: 0 10xp;
+    margin: 0px 10px;
+    background-color: var(--color-black-level3);
+    justify-content: center;
 }
 	
 .box-place h3{
@@ -236,26 +263,26 @@ body{
 .content-section h1{
 	padding: 0 0 15px 0;
 	font-weight: 500;
-	color: #333;
+	color: var(--color-black-level1);
   }
   
   .content-section h2{
 	padding-bottom: 10px;
 	padding-top: 20px;
 	font-weight: 500;
-	color: #444;
+	color: var(--color-black-level1);
   }
   
   .content-section h4{
 	margin:0 0 5px 10px;
 	font-weight: 500;
-	color: #333;
+	color: var(--color-black-level1);
   }
   
   .content-section p{
 	line-height: 1.4;
 	margin: 0 20px 5px 20px;
-	color: #444;
+	color: var(--color-black-level1);
   }
   
    p:first-child{
@@ -310,7 +337,7 @@ body{
   }
   
   .footer h3{
-	color:  var(--color-black-level1);
+	color:  var(--color-black-level2);
 	font: normal 36px var(--font-title);
   }
   
@@ -324,17 +351,17 @@ body{
   /* Footer links */
   
   .footer .ft-links{
-	color:  var(--color-black-level1);
+	color:  var(--color-black-level2);
 	margin: 20px 0 12px;
   }
   
   .footer .ft-links a{
 	text-decoration: none;
-	color:  var(--color-black-level1);
+	color:  var(--color-black-level2);
   }
   
   .footer .ft-company-name{
-	color:  var(--color-black-level1);
+	color:  var(--color-black-level2);
 	font-size: 14px;
 	font-weight: normal;
   }
@@ -346,7 +373,7 @@ body{
   }
   
   .footer .ft-center i{
-	background-color:  var(--color-black-level1);
+	background-color:  var(--color-black-level2);
 	color: var(--color-white-level0);
 	font-size: 25px;
 	width: 38px;
@@ -364,7 +391,7 @@ body{
   
   .footer .ft-center p{
 	display: inline-block;
-	color: var(--color-black-level1);
+	color: var(--color-black-level2);
 	/* vertical-align: middle; */
   }
   
@@ -387,13 +414,13 @@ body{
   
   .footer .ft-company-about{
 	line-height: 20px;
-	color:  var(--color-black-level2);
+	color:  var(--color-black-level3);
 	font-size: 13px;
   }
   
   .footer .ft-company-about span{
 	display: block;
-	color:  var(--color-black-level1);
+	color:  var(--color-black-level2);
 	font-size: 14px;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -409,7 +436,7 @@ body{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  var(--color-black-level1);
+	background-color:  var(--color-black-level2);
 	border-radius: 5px;
 	font-size: 20px;
 	color: var(--color-white-level0);
