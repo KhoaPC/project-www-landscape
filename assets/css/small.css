@@ -23,9 +23,13 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding:10px 30px;
+    padding:10px 37px;
     text-decoration: none;
 }
+
+.menu-nav__sub-container   span:hover{
+    background-color: var(--color-app-1st);
+  }
 
 span.header-center__space{
     display: none;

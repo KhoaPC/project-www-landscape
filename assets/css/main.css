@@ -54,7 +54,7 @@ body{
 }
 
 .header-left{
-	margin-right: 10px0;
+
 }
 
 .header-left img{
@@ -97,7 +97,7 @@ body{
 .header-center .menu-nav__sub-container>span>a{
 	display: block;
 	text-decoration: none;
-	padding:15px;
+	padding:20px 10px;
 	margin: 5px;
 	color: var(--color-black-level2);
 	height: 100%;
@@ -114,13 +114,13 @@ body{
 	display: block;
 }
 /* --------------------------------------- */
-.menu-nav__sub-container span:hover{
+.menu-nav__sub-container .sub-nav-place  span:hover{
   background-color: var(--color-app-1st);
 }
 .sub-nav-place{
 	position: absolute;
 	background-color: var(--color-white-level0);
-	top:102% ;
+	top:100% ;
 	box-shadow: 0 0 2px var(--color-black-level3);
 	margin-left: 5px;
 	display: none;
