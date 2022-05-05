@@ -18,8 +18,9 @@ img {
 
 :root{
 	--color-app-1st:#c8f5f8;
-	--color-app-2nd:#db2017;
-	--color-app-3rd:#ffff00;
+	--color-app-2nd:#e9fdfe;
+	--color-app-3rd:#db2017;
+	--color-app-4th:#ffff00;
 	--color-black-level0:#000;
 	--color-black-level1:#444;
 	--color-black-level2:#666;
@@ -62,6 +63,7 @@ body{
 	margin: 0 5px 0 20px;
 	border-radius: 2px;
 	max-width: none;
+	display: block;
 }
 /* --------------------------------- */
 
@@ -115,7 +117,7 @@ body{
 }
 /* --------------------------------------- */
 .menu-nav__sub-container .sub-nav-place  span:hover{
-  background-color: var(--color-app-1st);
+  background-color: var(--color-app-2nd);
 }
 .sub-nav-place{
 	position: absolute;
@@ -446,6 +448,17 @@ body{
 
   .ft-icons a i{
 	line-height: 1.8;
+  }
+
+  @media all and (max-width: 800px) {
+	.menu-nav__sub-container {
+	  background-color: white;
+	  position: absolute;
+	  top: 100%;
+	  right: 0;
+	  width: 100vw;
+	  box-shadow: 0 5px 2px -5px #222;
+	}
   }
 
 

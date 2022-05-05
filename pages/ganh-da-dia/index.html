@@ -16,20 +16,10 @@
     <div class="big">
       <div id="header">
         <div class="header-left">
+          <a href="../../index.html">
             <img src="../../assets/img/co-viet-nam.png" alt="">
+          </a>
         </div>
-        <style>
-          @media all and (max-width: 800px) {
-            .menu-nav__sub-container {
-              background-color: white;
-              position: absolute;
-              top: 100%;
-              right: 0;
-              width: 100vw;
-              box-shadow: 0 5px 2px -5px #222;
-            }
-          }
-        </style>
         <div class="header-center" id="menu-nav">
           <div class="menu-nav__sub-container">
             <span class="header-center__home"><a href="../../index.html"> TRANG CHỦ</a></span>
@@ -163,3 +153,16 @@
 
     </body>
 </html>
+
+<script>
+
+  function myFunction() {
+      var x = document.getElementById("menu-nav");
+      if (x.className === "header-center") {
+          x.className += "responsive";
+      } else {
+          x.className = "header-center";
+      }
+  }
+  
+  </script>
