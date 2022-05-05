@@ -8,8 +8,7 @@
     <link rel="stylesheet" media="(max-width: 800px)" href="assets/css/small.css">
     <link rel="icon"href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/230px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -18,17 +17,31 @@
         <div class="header-left">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg/230px-Flag_of_North_Vietnam_%281955%E2%80%931976%29.svg.png" alt="">
         </div>
+        <style>
+          @media all and (max-width: 800px) {
+            .menu-nav__sub-container {
+              background-color: white;
+              position: absolute;
+              top: 100%;
+              right: 0;
+              width: 100vw;
+              box-shadow: 0 5px 2px -5px #222;
+            }
+          }
+        </style>
         <div class="header-center" id="menu-nav">
-          <span class="header-center__home"><a href="#"> TRANG CHỦ</a></span>
-          <span class="header-center__space">/</span>
-          <span class="header-center__palce"><a href="#"> ĐIỂM ĐẾN</a>
-              <div class="sub-nav-place" > 
-                <a href="/pages/ganh-da-dia"><span>Gành Đá Đĩa  </span></a>
-                <a href="/pages/bai-xep"><span>Bãi Xép</span></a>
-              </div>
-            </span>
-          <span class="header-center__space">/</span>
-          <span class="header-center__cuisine"><a href="#"> ẨM THỰC</a></span>
+          <div class="menu-nav__sub-container">
+            <span class="header-center__home"><a href="#"> TRANG CHỦ</a></span>
+            <span class="header-center__space">/</span>
+            <span class="header-center__palce"><a href="#"> ĐIỂM ĐẾN</a>
+                <div class="sub-nav-place" > 
+                  <a href="/pages/ganh-da-dia"><span>Gành Đá Đĩa  </span></a>
+                  <a href="/pages/bai-xep"><span>Bãi Xép</span></a>
+                </div>
+              </span>
+            <span class="header-center__space">/</span>
+            <span class="header-center__cuisine"><a href="#"> ẨM THỰC</a></span>
+        </div>
           <a href="javascript:void(0);"  class="menu-icon" onclick="myFunction()">&#9776;</a>
         </div>
 

@@ -1,4 +1,6 @@
-
+.header-center {
+    position: relative;
+  }
 
 .header-center span{
     display: none;
@@ -21,13 +23,17 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
+    padding:10px 30px;
+    text-decoration: none;
 }
 
 span.header-center__space{
     display: none;
 }
 
-
+.menu-nav__sub-container{
+    display: block;
+}
 
 .header-center .menu-icon{
     position: absolute;

@@ -14,7 +14,7 @@
 img {
 	max-width: 100%;
 }
-/* ------------------- */
+/* ----------------------------- */
 
 :root{
 	--color-app-1st:#c8f5f8;
@@ -30,7 +30,7 @@ img {
 	--font-main: 'Nunito Sans';
 }
 
-/* ------------------ */
+/* ------------------------------------------ */
 html{
 	font-family: var(--font-main);
 }
@@ -63,7 +63,7 @@ body{
 	border-radius: 2px;
 	max-width: none;
 }
-
+/* --------------------------------- */
 
 .header-center{
 	display: flex;
@@ -84,34 +84,37 @@ body{
 	padding: 8 15px;
 }
 
-#menu-nav .header-centerresponsive{
+.header-centerresponsive span a {
+	color: var(--color-black-level2);
+}
 
+.menu-nav__sub-container{
+	display: flex;
+    align-items: center;
 }
 
 
-.header-center>span>a{
+.header-center .menu-nav__sub-container>span>a{
 	display: block;
 	text-decoration: none;
-	padding: 20px 15px;
+	padding:15px;
 	margin: 5px;
 	color: var(--color-black-level2);
 	height: 100%;
 }
 
 
-.header-center>span:hover a{
+.header-center .menu-nav__sub-container>span:hover a{
 	background-color:var(--color-app-1st) ;
 	border-radius: 5px;
 	color: var(--color-black-level3);
 }
 
-
-
-.header-center span:hover .sub-nav-place{
+.header-center .menu-nav__sub-container span:hover .sub-nav-place{
 	display: block;
 }
-
-.sub-nav-place span:hover{
+/* --------------------------------------- */
+.menu-nav__sub-container span:hover{
   background-color: var(--color-app-1st);
 }
 .sub-nav-place{
@@ -133,9 +136,7 @@ body{
 	text-decoration: none;
 	color: var(--color-black-level2);
 }
-  
-
-
+  /*------------------------------  */
 
 .header-right__search{
 	overflow: hidden;
