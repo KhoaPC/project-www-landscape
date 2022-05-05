@@ -55,7 +55,7 @@ body{
 }
 
 .header-left{
-
+	z-index: 100;
 }
 
 .header-left img{
@@ -83,7 +83,7 @@ body{
 	text-decoration: none;
     font-size: 30px;
 	color: var(--color-black-level1);
-	padding: 8 15px;
+	padding: 8.8px 15px;
 }
 
 .header-centerresponsive span a {
@@ -150,7 +150,7 @@ body{
   }
 .header-right__search input#search{
 	width: 300px;
-	height: 41px;
+	height: 40px;
 	background: var(--color-white-level0);
 	font-size: 13px;
 	color: var(--color-black-level2);
@@ -166,8 +166,8 @@ body{
 	border-bottom-right-radius: 8px;
 	border: none;
 	background: var(--color-black-level2);
-	height: 40px;
-	width: 46px;
+	height: 40.2px;
+	width: 44px;
 	color: var(--color-black-level3);
 	opacity: 0;
 	font-size: 15px;

@@ -68,19 +68,15 @@ span.header-center__space{
 }
 
 .header-right{
-    display: none;
-}
-
-
-.header-right__search{
-    width: 210px;
-    height: 43px;
+    display: block;
+    position: absolute;
 }
 
 
 .header-right__search input#search{
     width: 200px;
     padding: 1.4px 0px 0px 15px;
+    margin-left: 27%;
 }
 
 
@@ -155,9 +151,6 @@ span.header-center__space{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.footer .ft-center p{
 }
 
 .footer .ft-center i{
