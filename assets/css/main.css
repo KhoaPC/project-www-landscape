@@ -287,8 +287,9 @@ body{
   }
   
   .content-section p{
+	text-align: justify;
 	line-height: 1.4;
-	margin: 0 20px 5px 20px;
+	margin: 0 0px 5px 20px;
 	color: var(--color-black-level1);
   }
   
