@@ -184,8 +184,8 @@ body{
 
 #main-pages {
 		height: auto;
-		margin: 10% 0px 0 55px;
-		width: 70%;
+		margin: 100px auto 0 auto;
+		width: 90%;
 		margin-bottom: 100px;
 		display: block;
 }
