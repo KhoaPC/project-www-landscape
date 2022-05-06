@@ -1,0 +1,46 @@
+.footer{
+    padding: 50px 18px;
+}
+
+.footer .ft-right{
+    padding-top: 30px;
+    display: block;
+    width: 100%;
+
+}
+
+.footer .ft-left{
+    width: 100%;
+    display: inline;
+}
+
+.footer .ft-center{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .ft-center i{
+    display: inline-block;
+}
+.footer h3,
+.footer .ft-links,
+.footer .ft-company-name,
+.footer .ft-company-about span,
+.footer .ft-company-about,
+.footer .ft-icons{
+    text-align: center;
+}
+
+.footer .ft-icons a{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+
+.ft-icons a i {
+    line-height: 1.9;
+    font-size: 25px;
+}
