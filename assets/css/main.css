@@ -369,7 +369,7 @@ body{
   
   .footer .ft-company-name{
 	color:  var(--color-black-level2);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
   }
   
@@ -428,7 +428,7 @@ body{
   .footer .ft-company-about span{
 	display: block;
 	color:  var(--color-black-level2);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	margin-bottom: 15px;
 	font-family: var(--font-title);
