@@ -1,0 +1,60 @@
+#main-home{
+	height: auto;
+	margin: 10% 0 0 0;
+	margin-bottom: 100px;
+	display: block;
+}
+
+#main-home h1{
+	color: var(--color-black-level0);
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	margin-bottom: 50px;
+	font-family: var(--font-title);
+}
+
+#hot{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#hot a{
+	position: relative;
+	max-width: 48%;
+}
+
+.box-place {
+	max-width: 96%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	width: 460px;
+	margin: 0px 10px;
+	background-color: var(--color-black-level3);
+}
+	
+.box-place h3{
+	position:absolute;
+	z-index: 1;
+	overflow: hidden;
+	font-family: var(--font-title);
+	color: var(--color-white-level0);
+	font-size: 35px;
+	pointer-events: none;
+	text-align: center;
+	top: 44%;
+	left: 26%;
+	right: 26%;
+}
+
+#hot a img {
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	transition: all 1s;
+}
+
+#hot a img:hover{
+	opacity: 1;
+}

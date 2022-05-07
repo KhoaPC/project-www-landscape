@@ -1,0 +1,129 @@
+
+.footer{
+	background: var(--color-app-1st);
+	width: 100%;
+	padding: 55px 45px;
+  }
+  
+  .footer .ft-left,
+  .footer .ft-center,
+  .footer .ft-right{
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer .ft-left{
+	width: 35%;
+  }
+  
+  .footer h3{
+	color:  var(--color-black-level2);
+	font: normal 36px var(--font-title);
+  }
+  
+  .footer h3 img{
+	height: 38px;
+	width: 58px;
+	border-radius: 2px;
+	margin-bottom: -5px;
+  }
+  
+  /* Footer links */
+  
+  .footer .ft-links{
+	color:  var(--color-black-level2);
+	margin: 20px 0 12px;
+  }
+  
+  .footer .ft-links a{
+	text-decoration: none;
+	color:  var(--color-black-level2);
+  }
+  
+  .footer .ft-company-name{
+	color:  var(--color-black-level2);
+	font-size: 16px;
+	font-weight: normal;
+  }
+  
+  /* Footer Center */
+  
+  .footer .ft-center{
+	width: 38%;
+  }
+  
+  .footer .ft-center i{
+	background-color:  var(--color-black-level2);
+	color: var(--color-white-level0);
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+  }
+  
+  .footer .ft-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+  }
+  
+  .footer .ft-center p{
+	display: inline-block;
+	color: var(--color-black-level2);
+  }
+  
+  
+  .footer .ft-links a:before {
+	content: "|";
+	font-size: 20px;
+	padding-right: 5px;
+  }
+  
+  .footer .ft-links .ft-link-1:before {
+	content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer .ft-right{
+	width: 22%;
+  }
+  
+  .footer .ft-company-about{
+	line-height: 20px;
+	color:  var(--color-black-level3);
+	font-size: 13px;
+  }
+  
+  .footer .ft-company-about span{
+	display: block;
+	color:  var(--color-black-level2);
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-family: var(--font-title);
+  }
+  
+  .footer .ft-icons{
+	margin-top: 25px;
+  }
+  
+  .footer .ft-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  var(--color-black-level2);
+	border-radius: 5px;
+	font-size: 20px;
+	color: var(--color-white-level0);
+	text-align: center;
+  }
+
+  .ft-icons a i{
+	line-height: 1.8;
+  }

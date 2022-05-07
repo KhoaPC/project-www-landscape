@@ -27,6 +27,15 @@
     text-decoration: none;
 }
 
+.menu-nav__sub-container {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100vw;
+    box-shadow: 0 5px 2px -5px #222;
+  }
+
 .menu-nav__sub-container span:hover{
     background-color: var(--color-app-1st);
   }
@@ -177,3 +186,4 @@ span.header-center__space{
     line-height: 1.9;
     font-size: 25px;
 }
+
