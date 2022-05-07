@@ -36,12 +36,17 @@
 	display: none;
 }
 
+
 .header-centerresponsive .menu-icon,
 .header-center .menu-icon{
 	text-decoration: none;
     font-size: 30px;
 	color: var(--color-black-level1);
-	padding: 8.8px 15px;
+	padding: 9px 14px;
+}
+
+.header-centerresponsive .menu-icon{
+	padding: 14px 14px 9px 14px;
 }
 
 .header-centerresponsive span a {
