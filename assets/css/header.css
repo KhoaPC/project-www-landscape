@@ -104,8 +104,7 @@
 	white-space: nowrap;
 	position: relative;
 	width: 305px;
-	height: 42px;
-  }
+}
 .header-right__search input#search{
 	width: 300px;
 	height: 40px;
@@ -120,12 +119,13 @@
 	outline: none;
 }
 .header-right__search button.icon{
+	position: absolute;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 	border: none;
 	background: var(--color-black-level2);
 	height: 40.2px;
-	width: 44px;
+	width: 46px;
 	color: var(--color-black-level3);
 	opacity: 0;
 	font-size: 15px;

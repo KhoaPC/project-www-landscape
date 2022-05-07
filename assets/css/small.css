@@ -1,3 +1,4 @@
+
 .header-center {
     position: relative;
   }
@@ -28,7 +29,7 @@
 }
 
 .menu-nav__sub-container {
-    background-color: white;
+    background-color: var(--color-white-level0);
     position: absolute;
     top: 100%;
     right: 0;
@@ -75,19 +76,25 @@ span.header-center__space{
 .header-centerresponsive .menu-nav__sub-container span:hover .sub-nav-place{
 	display: block;
 }
-
+/* -------------------------- */
 .header-right{
-    display: block;
     position: absolute;
+    right: 58px;
 }
 
+.header-right__search{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .header-right__search input#search{
     width: 200px;
-    padding: 1.4px 0px 0px 15px;
-    margin-left: 27%;
-}
+} 
 
+.header-right__search button.icon{
+    transition:  all 1s cubic-bezier(0.55, -0.12, 0.34, 1.17)
+}
+/* ------------------------ */
 
 #hot {
     flex-direction: column;
@@ -110,11 +117,9 @@ span.header-center__space{
 
 #main-home h1 {
     margin: 100px 10px 20px 10px;
-    text-align: center;
 }
 
 .box-place h3 {
-    text-align: center;
     top: 42%;
     left: 26%;
     right: 26%;
@@ -167,6 +172,9 @@ span.header-center__space{
 .footer .ft-center i{
     display: inline-block;
 }
+
+#main-home h1,
+.box-place h3,
 .footer h3,
 .footer .ft-links,
 .footer .ft-company-name,
