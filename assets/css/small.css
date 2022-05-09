@@ -1,26 +1,26 @@
 
-.header-center {
+.header__center {
     position: relative;
   }
 
-.header-center span{
+.header__center span{
     display: none;
 }
 
-.header-centerresponsive{
+.header__centerresponsive{
     display: block;
 }
 
-.header-centerresponsive span{
+.header__centerresponsive span{
     display: block;
     position: relative;
 }
 
-.header-centerresponsive>span{
+.header__centerresponsive>span{
     display: inline-block;
 }
 
-.header-centerresponsive span>a {
+.header__centerresponsive span>a {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -41,7 +41,7 @@
     background-color: var(--color-app-1st);
   }
 
-span.header-center__space{
+span.header__center__space{
     display: none;
 }
 
@@ -49,49 +49,49 @@ span.header-center__space{
     display: block;
 }
 
-.header-center .menu-icon{
+.header__center .menu__icon{
     position: absolute;
     display: block;
     top: 0;
     right: 0;
 }   
 
-.sub-nav-place{
+.subnav{
     position: relative;
     margin: 0;
 }
 
-.sub-nav-place span{
+.subnav span{
     display: block;
     padding: 10px 0px 10px 50px;
     width: 100%;
     position: relative;
 }
 
-.sub-nav-place a{
+.subnav a{
     display: block;
     padding: 0;
 }
 
-.header-centerresponsive .menu-nav__sub-container span:hover .sub-nav-place{
+.header__centerresponsive .menu-nav__sub-container span:hover .subnav{
 	display: block;
-}
+    }
 /* -------------------------- */
-.header-right{
+#header__right{
     position: absolute;
     right: 58px;
 }
 
-.header-right__search{
+#header__right__search{
     display: flex;
     flex-direction: row-reverse;
 }
 
-.header-right__search input#search{
+#header__right__search #header__right__search__input{
     width: 200px;
 } 
 
-.header-right__search button.icon{
+#header__right__search .header__right__search__icon{
     transition:  all 1s cubic-bezier(0.55, -0.12, 0.34, 1.17)
 }
 /* ------------------------ */

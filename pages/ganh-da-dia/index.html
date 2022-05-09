@@ -18,34 +18,33 @@
 </head>
 
 <body>
-    <div class="big">
       <div id="header">
-        <div id="header-left">
+        <div id="header__left">
           <a href="../../index.html">
             <img src="../../assets/img/co-viet-nam.png" title="Trang chủ">
           </a>
         </div>
-        <div class="header-center" id="menu-nav">
+        <div class="header__center" id="menu-nav">
           <div class="menu-nav__sub-container">
-            <span class="header-center__home"><a href="../../index.html"> TRANG CHỦ</a></span>
-            <span class="header-center__space">/</span>
-            <span class="header-center__cuisine"><a href="#"> ẨM THỰC</a></span>
-            <span class="header-center__space">/</span>
-            <span class="header-center__palce"><a class="header-center__submenu-indicator" href="#"> ĐIỂM ĐẾN</a>
-                <div class="sub-nav-place" > 
+            <span class="header__center__nav "><a href="../../index.html"> TRANG CHỦ</a></span>
+            <span class="header__center__space">/</span>
+            <span class="header__center__nav "><a href="#"> ẨM THỰC</a></span>
+            <span class="header__center__space">/</span>
+            <span><a class="header__center__nav header-center__submenu-indicator" href="#"> ĐIỂM ĐẾN</a>
+                <div class="subnav sub__place" > 
                   <a href="#"><span>Gành Đá Đĩa  </span></a>
                   <a href="../bai-xep"><span>Bãi Xép</span></a>
                 </div>
             </span>
         </div>
-          <a href="javascript:void(0);"  class="menu-icon" onclick="myFunction()">&#9776;</a>
+          <a href="javascript:void(0);"  class="menu__icon" onclick="myFunction()">&#9776;</a>
         </div>
 
-        <div class="header-right">
-            <div class="header-right__search">
-                <input type="search" id="search"  placeholder="Search..." required/>
-                <button class="icon"><i class="fa fa-search"></i></button>
-            </div>
+        <div id="header__right">
+          <div id="header__right__search">
+            <input type="search" id="header__right__search__input" placeholder="Search..." required />
+            <button id="header__right__search__icon"><i class="fa fa-search"></i></button>
+          </div>
         </div>     
     </div>
 
@@ -152,9 +151,5 @@
               </div>
             </div>
           </div>
-        </div>
-
-
-
     </body>
 </html>
