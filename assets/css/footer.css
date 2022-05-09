@@ -1,29 +1,29 @@
 
-.footer{
+#footer{
 	background: var(--color-app-1st);
 	width: 100%;
 	padding: 55px 45px;
   }
   
-  .footer .ft-left,
-  .footer .ft-center,
-  .footer .ft-right{
+  #footer #ft__left,
+  #footer #ft__center,
+  #footer #ft__right{
 	display: inline-block;
 	vertical-align: top;
   }
   
   /* Footer left */
   
-  .footer .ft-left{
+  #footer #ft__left{
 	width: 35%;
   }
   
-  .footer h3{
+  #footer h3{
 	color:  var(--color-black-level2);
 	font: normal 36px var(--font-title);
   }
   
-  .footer h3 img{
+  #footer h3 img{
 	height: 38px;
 	width: 58px;
 	border-radius: 2px;
@@ -32,17 +32,17 @@
   
   /* Footer links */
   
-  .footer .ft-links{
+  #footer #ft__left__links{
 	color:  var(--color-black-level2);
 	margin: 20px 0 12px;
   }
   
-  .footer .ft-links a{
+  #footer #ft__left__links a{
 	text-decoration: none;
 	color:  var(--color-black-level2);
   }
   
-  .footer .ft-company-name{
+  #footer #ft__left__company__name{
 	color:  var(--color-black-level2);
 	font-size: 16px;
 	font-weight: normal;
@@ -50,11 +50,11 @@
   
   /* Footer Center */
   
-  .footer .ft-center{
+  #footer #ft__center{
 	width: 38%;
   }
   
-  .footer .ft-center i{
+  #footer #ft__center i{
 	background-color:  var(--color-black-level2);
 	color: var(--color-white-level0);
 	font-size: 25px;
@@ -66,40 +66,40 @@
 	margin: 10px 15px;
   }
   
-  .footer .ft-center i.fa-envelope{
+  #footer #ft__center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
   }
   
-  .footer .ft-center p{
+  #footer #ft__center p{
 	display: inline-block;
 	color: var(--color-black-level2);
   }
   
   
-  .footer .ft-links a:before {
+  #footer #ft__left__links a:before {
 	content: "|";
 	font-size: 20px;
 	padding-right: 5px;
   }
   
-  .footer .ft-links .ft-link-1:before {
+  #footer #ft__left__links #ft__left__link--firt:before {
 	content: none;
   }
   
   /* Footer Right */
   
-  .footer .ft-right{
+  #footer #ft__right{
 	width: 22%;
   }
   
-  .footer .ft-company-about{
+  #footer .ft__right__philosophy{
 	line-height: 20px;
 	color:  var(--color-black-level3);
 	font-size: 13px;
   }
   
-  .footer .ft-company-about span{
+  #footer .ft__right__philosophy span{
 	display: block;
 	color:  var(--color-black-level2);
 	font-size: 16px;
@@ -108,11 +108,11 @@
 	font-family: var(--font-title);
   }
   
-  .footer .ft-icons{
+  #footer #ft__right__icons{
 	margin-top: 25px;
   }
   
-  .footer .ft-icons a{
+  #footer #ft__right__icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -124,6 +124,6 @@
 	text-align: center;
   }
 
-  .ft-icons a i{
+  #ft__right__icons a i{
 	line-height: 1.8;
   }

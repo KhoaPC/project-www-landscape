@@ -1,20 +1,20 @@
-.footer{
+#footer{
     padding: 50px 18px;
 }
 
-.footer .ft-right{
+#footer #ft__right{
     padding-top: 30px;
     display: block;
     width: 100%;
 
 }
 
-.footer .ft-left{
+#footer #ft__left{
     width: 100%;
     display: inline;
 }
 
-.footer .ft-center{
+#footer #ft__center{
     width: 100%;
     margin-top: 20px;
     display: flex;
@@ -22,25 +22,25 @@
     align-items: center;
 }
 
-.footer .ft-center i{
+#footer #ft__center i{
     display: inline-block;
 }
-.footer h3,
-.footer .ft-links,
-.footer .ft-company-name,
-.footer .ft-company-about span,
-.footer .ft-company-about,
-.footer .ft-icons{
+#footer h3,
+#footer #ft__left__links,
+#footer #ft__left__company__name,
+#footer .ft__right__philosophy span,
+#footer .ft__right__philosophy,
+#footer #ft__right__icons{
     text-align: center;
 }
 
-.footer .ft-icons a{
+#footer #ft__right__icons a{
     width: 45px;
     height: 45px;
     margin: 5px;
 }
 
-.ft-icons a i {
+#ft__right__icons a i {
     line-height: 1.9;
     font-size: 25px;
 }
