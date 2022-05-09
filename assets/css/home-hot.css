@@ -1,11 +1,11 @@
-#main-home{
+#main__home{
 	height: auto;
 	margin: 10% 0 0 0;
 	margin-bottom: 100px;
 	display: block;
 }
 
-#main-home h1{
+#main__home h1{
 	color: var(--color-black-level0);
 	display: flex;
 	justify-content: center;
@@ -24,7 +24,7 @@
 	max-width: 48%;
 }
 
-.box-place {
+.box__place {
 	max-width: 96%;
 	height: 100%;
 	display: flex;
@@ -34,7 +34,7 @@
 	background-color: var(--color-black-level3);
 }
 	
-.box-place h3{
+.box__place h3{
 	position:absolute;
 	z-index: 1;
 	overflow: hidden;

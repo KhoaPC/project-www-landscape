@@ -105,7 +105,7 @@ span.header__center__space{
     max-width: 100%;
 }
 
-.box-place {
+.box__place {
     width: 100%;
     margin: 20px 10px;
 }
@@ -115,31 +115,31 @@ span.header__center__space{
     height: 88%;
 }
 
-#main-home h1 {
+#main__home h1 {
     margin: 100px 10px 20px 10px;
 }
 
-.box-place h3 {
+.box__place h3 {
     top: 42%;
     left: 26%;
     right: 26%;
 }
 
 
-#main-pages{
+.main__pages{
     margin: 25% 0 50px 2.5%;
     width: 95%;
 }
 
 
-.content-section h1{
+.content___section h1{
     text-align: left;
 }
-.content-section h2{
+.content___section h2{
     font-weight: 600;
 }
 
-.content-section h4{
+.content___section h4{
     font-size: 18px;
     font-weight: 600;
 }
